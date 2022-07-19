@@ -138,6 +138,7 @@ Top blog styles
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
     }
     .player, .blog{
         flex-direction: column;
